@@ -31,3 +31,5 @@ public class Solution {
 	4. A chicken cannot fly (assumption: its wings are clipped but ignore that ) **Added**
 3. Now how would you model a rooster?
 	1. A rooster says: “ Cock-a-doodle-doo ” **Added**
+	2. How is the rooster related to the chicken?  **It is a kind of Chicken , Rooster IS A Chicken**
+	3. Can you think of other ways to model a rooster without using inheritance?  **We can implement required methods which are implemented in Bird and Chicken class directly here and other Rooster related properties can be implmented in the same class**
