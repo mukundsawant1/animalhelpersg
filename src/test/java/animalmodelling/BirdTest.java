@@ -9,9 +9,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import animalmodelling.model.Bird;
 import animalmodelling.util.StringUtil;
 
-public class SolutionTest {
+public class BirdTest {
 
 	private final ByteArrayOutputStream content = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;

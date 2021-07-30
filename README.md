@@ -23,3 +23,4 @@ public class Solution {
 #A)
 1. Can you implement the sing() method for the bird?
 	1. How did you unit test it? **Added Test class**
+	2. How did you optimize the code for maintainability? (Ask yourself the same question for all following exercises ) **Classes are separated in diferent files and package**
