@@ -52,3 +52,8 @@ public class Solution {
 3. Dolphin s are not exactly f ish, yet, they are good swimmers
 	1. Can you model a dolphin that swims without inheriting from a fish class? **Added**
 	2. How do you avoid duplicating code or introducing unneeded overhead? **Added**
+
+#C)
+1. Can you model a butterfly?
+	1. A butterfly can fly **Added**
+	2. A butterfly does not make a sound **Added**
