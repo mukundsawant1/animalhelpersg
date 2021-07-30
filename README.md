@@ -33,3 +33,5 @@ public class Solution {
 	1. A rooster says: “ Cock-a-doodle-doo ” **Added**
 	2. How is the rooster related to the chicken?  **It is a kind of Chicken , Rooster IS A Chicken**
 	3. Can you think of other ways to model a rooster without using inheritance?  **We can implement required methods which are implemented in Bird and Chicken class directly here and other Rooster related properties can be implmented in the same class**
+4. Can you model a parrot? We are specifically interested in three parrots, one that lived in a house with dogs one in a house with cats , the other lived on a farm next to the rooster.
+	1. A parrot living with dogs says: “Woof, woof” **Added**
