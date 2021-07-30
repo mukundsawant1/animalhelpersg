@@ -9,8 +9,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import animalmodelling.model.Rooster;
 import animalmodelling.util.StringUtil;
+
 
 public class RoosterTest {
 
@@ -27,6 +27,13 @@ public class RoosterTest {
 		new Rooster().sing();
 		String res = StringUtil.removeLineEndChars.apply(content.toString());
 		assertEquals(res, "Cock-a-doodle-doo");
+	}
+	
+	@Test
+	public void check_if_rooster_can_sing_in_german() {
+		new Rooster().singInLanguage("GE");
+		String res = StringUtil.removeLineEndChars.apply(content.toString());
+		assertEquals(new Rooster().singInLanguage("GE"), "kikeriki");
 	}
 
 	@AfterEach

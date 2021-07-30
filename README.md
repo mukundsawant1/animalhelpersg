@@ -62,3 +62,6 @@ public class Solution {
 	2. A caterpillar can walk (crawl) **Added**
 	
 #D) Counting animals **Done**
+
+#BONUS is added with singUtil
+
