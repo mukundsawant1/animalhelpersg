@@ -28,3 +28,4 @@ public class Solution {
 	1. A duck says: “Quack , quack ” **Added**
 	2. A duck can swim **Added**
 	3. A chicken says: “ Cluck, cluck ” **Added**
+	4. A chicken cannot fly (assumption: its wings are clipped but ignore that ) **Added**
