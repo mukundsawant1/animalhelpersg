@@ -1,18 +1,15 @@
-package animalmodelling;
+package animalmodelling.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import animalmodelling.model.Duck;
+import animalmodelling.model.Chicken;
 import animalmodelling.util.StringUtil;
 
-public class DuckTest {
+public class ChickenTest {
 
 	private final ByteArrayOutputStream content = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
@@ -23,10 +20,10 @@ public class DuckTest {
 	}
 
 	@Test
-	public void check_if_duck_can_sing() {
-		new Duck().sing();
+	public void check_if_chicken_can_sing() {
+		new Chicken().sing();
 		String res = StringUtil.removeLineEndChars.apply(content.toString());
-		assertEquals(res, "Quack , quack");
+		assertEquals(res, "Cluck, cluck");
 	}
 
 	@AfterEach

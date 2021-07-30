@@ -1,4 +1,4 @@
-package animalmodelling;
+package animalmodelling.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,10 +9,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import animalmodelling.model.Rooster;
+import animalmodelling.model.Duck;
 import animalmodelling.util.StringUtil;
 
-public class RoosterTest {
+public class DuckTest {
 
 	private final ByteArrayOutputStream content = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
@@ -23,10 +23,10 @@ public class RoosterTest {
 	}
 
 	@Test
-	public void check_if_rooster_can_sing() {
-		new Rooster().sing();
+	public void check_if_duck_can_sing() {
+		new Duck().sing();
 		String res = StringUtil.removeLineEndChars.apply(content.toString());
-		assertEquals(res, "Cock-a-doodle-doo");
+		assertEquals(res, "Quack , quack");
 	}
 
 	@AfterEach
@@ -34,5 +34,4 @@ public class RoosterTest {
 		System.setOut(originalOut);
 	}
 
-	
 }

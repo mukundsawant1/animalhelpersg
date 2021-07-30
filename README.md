@@ -35,3 +35,6 @@ public class Solution {
 	3. Can you think of other ways to model a rooster without using inheritance?  **We can implement required methods which are implemented in Bird and Chicken class directly here and other Rooster related properties can be implmented in the same class**
 4. Can you model a parrot? We are specifically interested in three parrots, one that lived in a house with dogs one in a house with cats , the other lived on a farm next to the rooster.
 	1. A parrot living with dogs says: “Woof, woof” **Added**
+	2. A parrot living with cats says: “ Me ow” **Added**
+	3. A parrot living near the rooster says: “ Cock-a-doodle-doo ” **Added**
+	4. How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings frequently? **The classes which are already added ,in those classes nothing is required to change , only the consumer class has to pass the object of the type of the class of which song is expected , If the class is new for e.g. then add it without modifying existing structure and call the method which is implmented in that class which can produce the sound from Parrot class**
