@@ -65,3 +65,4 @@ public class Solution {
 
 #BONUS is added with singUtil
 
+#BONUS 2 rest service is added with SpringBoot
