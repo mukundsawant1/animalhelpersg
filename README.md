@@ -49,3 +49,6 @@ public class Solution {
 	2. Clownfish are small and colourful (orange) **Added**
 	3. Clownfish make jokes **Added**
 	4. Sharks eat other fish **Added**
+3. Dolphin s are not exactly f ish, yet, they are good swimmers
+	1. Can you model a dolphin that swims without inheriting from a fish class? **Added**
+	2. How do you avoid duplicating code or introducing unneeded overhead? **Added**
