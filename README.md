@@ -24,3 +24,5 @@ public class Solution {
 1. Can you implement the sing() method for the bird?
 	1. How did you unit test it? **Added Test class**
 	2. How did you optimize the code for maintainability? (Ask yourself the same question for all following exercises ) **Classes are separated in diferent files and package**
+2. Now, we have 2 special kinds of birds: the Duck and the Chicken ... Can you implement them to make their own special sound?
+	1. A duck says: “Quack , quack ” **Added**
