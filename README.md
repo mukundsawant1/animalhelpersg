@@ -27,3 +27,4 @@ public class Solution {
 2. Now, we have 2 special kinds of birds: the Duck and the Chicken ... Can you implement them to make their own special sound?
 	1. A duck says: “Quack , quack ” **Added**
 	2. A duck can swim **Added**
+	3. A chicken says: “ Cluck, cluck ” **Added**

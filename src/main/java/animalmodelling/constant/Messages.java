@@ -3,7 +3,7 @@ package animalmodelling.constant;
 public enum Messages {
 
 	BIRD_FLYING("I am flying"), BIRD_SINGING("I am singing"),ANIMAL_WALKING("I am walking")
-	,DUCK_SINGING("Quack , quack"),DUCK_SWIMMING("I can swim");
+	,DUCK_SINGING("Quack , quack"),DUCK_SWIMMING("I can swim"),CHICKEN_SINGING("Cluck, cluck");
 
 	private String message;
 
