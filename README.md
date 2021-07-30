@@ -29,3 +29,5 @@ public class Solution {
 	2. A duck can swim **Added**
 	3. A chicken says: “ Cluck, cluck ” **Added**
 	4. A chicken cannot fly (assumption: its wings are clipped but ignore that ) **Added**
+3. Now how would you model a rooster?
+	1. A rooster says: “ Cock-a-doodle-doo ” **Added**
