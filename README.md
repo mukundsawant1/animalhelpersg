@@ -38,3 +38,9 @@ public class Solution {
 	2. A parrot living with cats says: “ Me ow” **Added**
 	3. A parrot living near the rooster says: “ Cock-a-doodle-doo ” **Added**
 	4. How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings frequently? **The classes which are already added ,in those classes nothing is required to change , only the consumer class has to pass the object of the type of the class of which song is expected , If the class is new for e.g. then add it without modifying existing structure and call the method which is implmented in that class which can produce the sound from Parrot class**
+
+#B)
+1. In addition to the birds, can you model a fish?
+	1. Fish es don’t sing **Added**
+	2. Fish es don’t walk **Added**
+	3. Fish es can swim **Added**

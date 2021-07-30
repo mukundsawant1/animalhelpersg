@@ -1,10 +1,11 @@
 package animalmodelling.model;
 
+import animalmodelling.behavior.Walkable;
 import animalmodelling.constant.Messages;
 
-public class Animal {
+public class Animal implements Walkable{
 
-	void walk() {
+	public void walk() {
 		System.out.println(Messages.ANIMAL_WALKING.getMessage());
 	}
 
