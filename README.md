@@ -44,3 +44,8 @@ public class Solution {
 	1. Fish es don’t sing **Added**
 	2. Fish es don’t walk **Added**
 	3. Fish es can swim **Added**
+2. Can you specialize the fish as a Shark and as a Clownfish?
+	1. Sharks are large and grey **Added**
+	2. Clownfish are small and colourful (orange) **Added**
+	3. Clownfish make jokes **Added**
+	4. Sharks eat other fish **Added**
