@@ -8,7 +8,8 @@ public enum Messages {
 	DEFAULT_SINGING(""), CAT_SINGING("Me ow"), DEFAULT_WALKING(""), DEFAULT_SWIMMING(""),
 	DEFAULT_FISH_SWIMMING("I can swim"), CLOWNFISH_JOKING("I can make jokes"), FISH_DEFAULT_SINGING("I don't sing"),
 	FISH_DEFAULT_WALKING("I don't walk"), FISH_DEFAULT_SWIMMING("I can swim"), CETACEANS_SWIMMING("I can swim"),
-	DEFAULT_FLYING(""), BUTTERFLY_FLYING("I am flying"), BUTTERFLY_SINGING("I cannot sing");
+	DEFAULT_FLYING(""), BUTTERFLY_FLYING("I am flying"), BUTTERFLY_SINGING("I cannot sing"),CATERPILLER_FLYING("I cannot fly"),
+	CATERPILLER_WALKING("I can walk");
 
 	private String message;
 

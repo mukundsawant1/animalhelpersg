@@ -57,3 +57,8 @@ public class Solution {
 1. Can you model a butterfly?
 	1. A butterfly can fly **Added**
 	2. A butterfly does not make a sound **Added**
+2. Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+	1. A caterpillar cannot fly **Added**
+	2. A caterpillar can walk (crawl) **Added**
+	
+#D) Counting animals **Done**
